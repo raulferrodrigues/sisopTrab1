@@ -1,0 +1,82 @@
+Benchmark for 2 processors.
+
+Time is in microseconds.
+Average for size 64 in 10 runs: 
+	Sync: 1617us 
+	Async: 21011us
+Average for size 128 in 10 runs: 
+	Sync: 4517us 
+	Async: 35165us
+Average for size 256 in 10 runs: 
+	Sync: 35314us 
+	Async: 29943us
+Average for size 512 in 10 runs: 
+	Sync: 248210us 
+	Async: 123594us
+Average for size 1024 in 10 runs: 
+	Sync: 3171862us 
+	Async: 1064398us
+
+Runs 64, 128, 256, 512, 1024:
+<sync> 	 <async>
+1617199	21011763
+4517089	35165047
+35314032	29943146
+248210624	123594010
+3171862194	1064398355
+________________________________________________________________________
+
+Benchmark for 3 processors.
+
+Time is in microseconds.
+Average for size 64 in 10 runs: 
+	Sync: 1689us 
+	Async: 8715us
+Average for size 128 in 10 runs: 
+	Sync: 2688us 
+	Async: 12546us
+Average for size 256 in 10 runs: 
+	Sync: 26874us 
+	Async: 23521us
+Average for size 512 in 10 runs: 
+	Sync: 239701us 
+	Async: 86883us
+Average for size 1024 in 10 runs: 
+	Sync: 3190675us 
+	Async: 729240us
+
+Runs 64, 128, 256, 512, 1024:
+<sync> 	 <async>
+1689889	8715712
+2688512	12546716
+26874921	23521929
+239701836	86883394
+3190675890	729240374
+________________________________________________________________________
+
+Benchmark for 4 processors.
+
+Time is in microseconds.
+Average for size 64 in 10 runs: 
+	Sync: 775us 
+	Async: 5142us
+Average for size 128 in 10 runs: 
+	Sync: 4713us 
+	Async: 15636us
+Average for size 256 in 10 runs: 
+	Sync: 31566us 
+	Async: 24666us
+Average for size 512 in 10 runs: 
+	Sync: 263947us 
+	Async: 101397us
+Average for size 1024 in 10 runs: 
+	Sync: 3801810us 
+	Async: 690126us
+
+Runs 64, 128, 256, 512, 1024:
+<sync> 	 <async>
+775318	5142225
+4713336	15636604
+31566300	24666730
+263947088	101397048
+3801810810	690126876
